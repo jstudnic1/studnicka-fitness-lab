@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 
 const HeroSection: React.FC = () => {
@@ -37,7 +36,7 @@ const HeroSection: React.FC = () => {
           playsInline
           className="absolute min-w-full min-h-full object-cover"
         >
-          <source src="/video-bg.mp4" type="video/mp4" />
+          <source src="/video.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
