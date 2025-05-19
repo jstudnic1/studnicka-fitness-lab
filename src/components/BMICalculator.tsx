@@ -66,7 +66,7 @@ const BMICalculator: React.FC = () => {
               placeholder="Např. 70"
             />
           </div>
-          <Button onClick={calculateBmi} className="w-full">
+          <Button onClick={calculateBmi} className="w-full text-white">
             Spočítej si BMI
           </Button>
           {bmi !== null && (

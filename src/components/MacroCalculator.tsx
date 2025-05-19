@@ -129,7 +129,7 @@ const MacroCalculator: React.FC = () => {
               </SelectContent>
             </Select>
           </div>
-          <Button onClick={calculateMacros} className="w-full !mt-6">
+          <Button onClick={calculateMacros} className="w-full !mt-6 text-white">
             Zjistit makra
           </Button>
           {error && (

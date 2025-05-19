@@ -35,19 +35,19 @@ const ServicesSection: React.FC = () => {
           <ServiceCard
             title="Individuální trénink"
             price="700 Kč / 60 min"
-            description="Osobní trénink přizpůsobený tvým potřebám a cílům. Zaměřený na výsledky a efektivní pokrok."
+            description="Osobní trénink přizpůsobený tvým potřebám a cílům. Zaměřený na výsledky a efektivní pokrok. Trénuji v Mladé Boleslavi."
             icon={<Dumbbell size={32} />}
           />
           <ServiceCard
             title="Online coaching"
             price="2 900 Kč / měsíc"
-            description="Kompletní plán tréninků, stravování a podpora na denní bázi, ať jsi kdekoliv."
+            description="Kompletní plán tréninků, stravování a podpora na denní bázi, ať jsi kdekoliv. Osobní konzultace možné v Mladé Boleslavi."
             icon={<Laptop size={32} />}
           />
           <ServiceCard
             title="Výživový plán"
             price="1 500 Kč"
-            description="Personalizovaný jídelníček sestavený na míru tvým cílům, preferencím a životnímu stylu."
+            description="Personalizovaný jídelníček sestavený na míru tvým cílům, preferencím a životnímu stylu. Konzultace v Mladé Boleslavi nebo online."
             icon={<Apple size={32} />}
           />
         </div>

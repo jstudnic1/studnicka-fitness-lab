@@ -1,4 +1,3 @@
-
 import React from "react";
 
 const AboutSection: React.FC = () => {
@@ -18,7 +17,7 @@ const AboutSection: React.FC = () => {
         <div className="w-full md:w-3/5 reveal">
           <h3 className="mb-4 text-2xl font-semibold">Marek Studnička</h3>
           <p className="mb-4">
-            Již 8 let pomáhám klientům dosahovat jejich fitness cílů a měnit jejich životy k lepšímu. Moje cesta začala vlastní transformací, kdy jsem sám zhubnul 15 kg a objevil sílu správného tréninku a výživy.
+            Jsem osobní trenér působící v Mladé Boleslavi. Pomáhám klientům zlepšit kondici, zdraví i sebevědomí prostřednictvím individuálních tréninků a odborného vedení.
           </p>
           <p className="mb-4">
             Věřím, že každý člověk má potenciál dosáhnout své nejlepší fyzické i mentální kondice - a mým posláním je ti s tím pomoci.

@@ -10,12 +10,12 @@ const ContactSection: React.FC = () => {
         <div className="w-full md:w-1/2 reveal">
           <div className="mb-6">
             <h3 className="text-2xl font-semibold mb-2">Marek Studnička</h3>
-            <p className="text-gray-600 mb-6">Osobní trenér & Online kouč</p>
+            <p className="text-gray-600 mb-6">Osobní trenér & Online kouč v Mladé Boleslavi</p>
 
             <div className="space-y-3">
-              <a href="tel:+420777888999" className="flex items-center text-lg hover:text-marek-cta">
+              <a href="tel:+420777186849" className="flex items-center text-lg hover:text-marek-cta">
                 <Phone className="mr-3" size={20} />
-                +420 777 888 999
+                +420 777 186 849
               </a>
               <a href="mailto:info@marekstudnicka.cz" className="flex items-center text-lg hover:text-marek-cta">
                 <Mail className="mr-3" size={20} />
@@ -25,7 +25,7 @@ const ContactSection: React.FC = () => {
 
             <div className="mt-6 flex gap-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/studnicka_marek/?igsh=MW1oNjhpemlsMzR6Yw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-marek-cta text-white flex items-center justify-center hover:bg-primary-hover transition-colors"
@@ -34,7 +34,7 @@ const ContactSection: React.FC = () => {
                 <Instagram size={18} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/marek.studnicka?mibextid=wwXIfr&rdid=U3uLjk1rEem06bic&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BWyiCaKi1%2F%3Fmibextid%3DwwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-marek-cta text-white flex items-center justify-center hover:bg-primary-hover transition-colors"

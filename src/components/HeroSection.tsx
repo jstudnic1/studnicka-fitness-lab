@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
             Změň své tělo i mysl
           </h1>
           <p className="reveal text-xl mb-8 delay-200 max-w-xl mx-auto">
-            S osobním přístupem a profesionálním vedením dosáhneš svých fitness cílů rychleji a efektivněji.
+            Pomohu vám dosáhnout vašich fitness cílů – individuálně, efektivně a s osobním přístupem přímo v Mladé Boleslavi.
           </p>
           <a
             href="#rezervace"
