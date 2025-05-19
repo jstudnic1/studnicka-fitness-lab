@@ -31,7 +31,7 @@ const BlogPostPage: React.FC = () => {
     return <NotFound />;
   }
 
-  const siteUrl = "https://studnicka-fitness-lab.vercel.app/";
+  const siteUrl = "https://www.trenermb.cz/";
   const postUrl = `${siteUrl}/blog/${post.slug}`;
   const ogImageUrl = post.image ? `${siteUrl}${post.image.startsWith('/') ? '' : '/'}${post.image}` : `${siteUrl}/images/default-blog-og-image.jpg`;
 

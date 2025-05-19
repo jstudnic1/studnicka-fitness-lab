@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://studnicka-fitness-lab.vercel.app/sitemap.xml
+Sitemap: https://www.trenermb.cz/sitemap.xml

@@ -7,7 +7,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
-  const siteUrl = "https://studnicka-fitness-lab.vercel.app/"; // IMPORTANT: Replace with your actual deployed URL
+  const siteUrl = "https://www.trenermb.cz/"; // IMPORTANT: Replace with your actual deployed URL
 
   const dynamicRoutes = blogData.map(post => `/blog/${post.slug}`);
 

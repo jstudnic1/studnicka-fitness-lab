@@ -35,7 +35,7 @@ const Index: React.FC = () => {
     };
   }, []);
 
-  const siteUrl = "https://studnicka-fitness-lab.vercel.app/"; // Replace with your actual deployed URL
+  const siteUrl = "https://www.trenermb.cz/";
   const ogImageUrl = `${siteUrl}/images/blog/BRP_img.jpeg`; // Example, ensure this path is correct
 
   return (
@@ -71,7 +71,7 @@ const Index: React.FC = () => {
                 "addressLocality": "Mladá Boleslav",
                 "addressCountry": "CZ"
               },
-              "url": "https://studnicka-fitness-lab.vercel.app/",
+              "url": "https://www.trenermb.cz/",
               "areaServed": "Mladá Boleslav"
             }
           `}
