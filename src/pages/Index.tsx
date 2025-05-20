@@ -9,6 +9,7 @@ import CalculatorsSection from "@/components/CalculatorsSection";
 import ContactSection from "@/components/ContactSection";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ReservationSection from "@/components/ReservationSection";
+import { Link } from "react-router-dom";
 
 const Index: React.FC = () => {
   // The useEffect for scroll animations is kept, only meta tag logic is removed.
@@ -135,8 +136,8 @@ const Index: React.FC = () => {
 
               <div className="mt-4 md:mt-0">
                 <ul className="flex flex-wrap justify-center md:justify-start space-x-4 text-sm">
-                  <li><a href="#" className="text-gray-400 hover:text-white">Ochrana osobních údajů</a></li>
-                  <li><a href="#" className="text-gray-400 hover:text-white">Obchodní podmínky</a></li>
+                  <li><Link to="/ochrana-osobnich-udaju" className="text-gray-400 hover:text-white">Ochrana osobních údajů</Link></li>
+                  <li><Link to="/obchodni-podminky" className="text-gray-400 hover:text-white">Obchodní podmínky</Link></li>
                 </ul>
               </div>
             </div>
