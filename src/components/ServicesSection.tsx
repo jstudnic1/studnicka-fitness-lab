@@ -17,7 +17,7 @@ const ServiceCard: React.FC<{
       <h3 className="text-xl font-semibold mb-2 text-center">{title}</h3>
       <p className="text-center text-gray-600 mb-6 flex-grow">{description}</p>
       <div className="mt-auto text-center">
-        <a href="#kontakt" className="btn-primary">
+        <a href="#kontakt" className="btn-primary" aria-label={`Rezervovat ${title}`}>
           Napiš mi a domluvíme se
         </a>
       </div>
