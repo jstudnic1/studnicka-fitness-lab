@@ -39,7 +39,7 @@ const Index: React.FC = () => {
   }, []);
 
   const siteUrl = "https://www.trenermb.cz/";
-  const ogImageUrl = `${siteUrl}/images/blog/BRP_img.jpeg`; // Example, ensure this path is correct
+  const ogImageUrl = `${siteUrl}images/marek-about.jpg`;
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
 
