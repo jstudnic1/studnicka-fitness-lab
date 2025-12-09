@@ -1,4 +1,5 @@
 import React from "react";
+import { Menu, X } from "lucide-react";
 import { Helmet } from 'react-helmet-async';
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
@@ -8,7 +9,7 @@ import BlogSection from "@/components/BlogSection";
 import CalculatorsSection from "@/components/CalculatorsSection";
 import ContactSection from "@/components/ContactSection";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import ReservationSection from "@/components/ReservationSection";
+
 import { Link } from "react-router-dom";
 
 const Index: React.FC = () => {
@@ -38,6 +39,10 @@ const Index: React.FC = () => {
 
   const siteUrl = "https://www.trenermb.cz/";
   const ogImageUrl = `${siteUrl}/images/blog/BRP_img.jpeg`; // Example, ensure this path is correct
+
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
+
+  const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
     <>
@@ -92,10 +97,26 @@ const Index: React.FC = () => {
               <a href="#kontakt" className="hover:text-marek-cta transition-colors">Kontakt</a>
             </nav>
 
-            <a href="#rezervace" className="hidden md:inline-block btn-primary text-sm">
-              Rezervovat trénink
-            </a>
+            {/* Mobile Menu Toggle */}
+            <button
+              className="md:hidden p-2 text-gray-700"
+              onClick={toggleMobileMenu}
+              aria-label="Toggle menu"
+            >
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
           </div>
+
+          {/* Mobile Menu Overlay */}
+          {isMobileMenuOpen && (
+            <div className="md:hidden absolute top-16 left-0 w-full bg-white border-b shadow-lg py-4 flex flex-col items-center space-y-4 animate-fade-in-down">
+              <a href="#o-mne" className="text-lg font-medium hover:text-marek-cta" onClick={() => setIsMobileMenuOpen(false)}>O mně</a>
+              <a href="#sluzby" className="text-lg font-medium hover:text-marek-cta" onClick={() => setIsMobileMenuOpen(false)}>Služby</a>
+              <a href="#promeny" className="text-lg font-medium hover:text-marek-cta" onClick={() => setIsMobileMenuOpen(false)}>Proměny</a>
+              <a href="#blog" className="text-lg font-medium hover:text-marek-cta" onClick={() => setIsMobileMenuOpen(false)}>Blog</a>
+              <a href="#kontakt" className="text-lg font-medium hover:text-marek-cta" onClick={() => setIsMobileMenuOpen(false)}>Kontakt</a>
+            </div>
+          )}
         </header>
 
         <main className="flex-grow pt-16">
@@ -105,7 +126,7 @@ const Index: React.FC = () => {
           <TransformationsSection />
           <BlogSection />
           <CalculatorsSection />
-          <ReservationSection />
+
           <ContactSection />
         </main>
 

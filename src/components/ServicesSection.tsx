@@ -3,10 +3,10 @@ import { Dumbbell, Laptop, Apple } from "lucide-react";
 
 const ServiceCard: React.FC<{
   title: string;
-  price: string;
+
   description: string;
   icon: React.ReactNode;
-}> = ({ title, price, description, icon }) => {
+}> = ({ title, description, icon }) => {
   return (
     <div className="card reveal flex flex-col h-full">
       <div className="flex justify-center mb-5">
@@ -15,11 +15,10 @@ const ServiceCard: React.FC<{
         </div>
       </div>
       <h3 className="text-xl font-semibold mb-2 text-center">{title}</h3>
-      <p className="text-2xl font-bold text-marek-cta text-center mb-4">{price}</p>
       <p className="text-center text-gray-600 mb-6 flex-grow">{description}</p>
       <div className="mt-auto text-center">
-        <a href="#rezervace" className="btn-primary">
-          Rezervovat
+        <a href="#kontakt" className="btn-primary">
+          Napiš mi a domluvíme se
         </a>
       </div>
     </div>
@@ -34,19 +33,16 @@ const ServicesSection: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <ServiceCard
             title="Individuální trénink"
-            price="700 Kč / 60 min"
             description="Osobní trénink přizpůsobený tvým potřebám a cílům. Zaměřený na výsledky a efektivní pokrok. Trénuji v Mladé Boleslavi."
             icon={<Dumbbell size={32} />}
           />
           <ServiceCard
             title="Online coaching"
-            price="2 900 Kč / měsíc"
             description="Kompletní plán tréninků, stravování a podpora na denní bázi, ať jsi kdekoliv. Osobní konzultace možné v Mladé Boleslavi."
             icon={<Laptop size={32} />}
           />
           <ServiceCard
             title="Výživový plán"
-            price="1 500 Kč"
             description="Personalizovaný jídelníček sestavený na míru tvým cílům, preferencím a životnímu stylu. Konzultace v Mladé Boleslavi nebo online."
             icon={<Apple size={32} />}
           />

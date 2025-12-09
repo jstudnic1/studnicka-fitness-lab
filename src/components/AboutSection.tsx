@@ -8,7 +8,7 @@ const AboutSection: React.FC = () => {
         <div className="w-full md:w-2/5 reveal">
           <div className="rounded-16 overflow-hidden aspect-[3/4] bg-gray-200">
             <img
-              src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              src="/images/marek-about.jpg"
               alt="Marek Studnička - osobní trenér"
               className="w-full h-full object-cover"
             />

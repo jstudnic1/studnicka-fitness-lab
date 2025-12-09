@@ -50,12 +50,7 @@ const HeroSection: React.FC = () => {
           <p className="reveal text-xl mb-8 delay-200 max-w-xl mx-auto">
             Pomohu vám dosáhnout vašich fitness cílů – individuálně, efektivně a s osobním přístupem přímo v Mladé Boleslavi.
           </p>
-          <a
-            href="#rezervace"
-            className="reveal btn-primary text-lg animate-scale-up delay-300"
-          >
-            Rezervovat trénink
-          </a>
+
         </div>
       </div>
     </section>

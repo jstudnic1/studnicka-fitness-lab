@@ -12,25 +12,18 @@ type Transformation = {
 
 const transformations: Transformation[] = [
   {
-    id: 1,
-    name: "Jan, 32 let",
-    beforeImg: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    afterImg: "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    quote: "S Markem jsem za 4 měsíce shodil 14 kg a konečně se cítím skvěle. Jeho přístup mě motivoval vydržet i v těžkých chvílích."
+    id: 4,
+    name: "Lukáš, 28 let",
+    beforeImg: "/images/transformations/client1-before.png",
+    afterImg: "/images/transformations/client1-after.png",
+    quote: "Nikdy jsem nevěřil, že se dokážu takhle změnit. Díky Markovu vedení jsem získal nejen novou postavu, ale i sebevědomí."
   },
   {
-    id: 2,
-    name: "Karolína, 29 let",
-    beforeImg: "https://images.unsplash.com/photo-1541577141970-eebc83ebe30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    afterImg: "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    quote: "Online coaching s Markem změnil můj pohled na fitness. Naučil mě, že zdravý životní styl může být zároveň příjemný."
-  },
-  {
-    id: 3,
-    name: "Petr, 45 let",
-    beforeImg: "https://images.unsplash.com/photo-1563685753179-f1318b5484a6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    afterImg: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    quote: "Výživový plán byl přesně to, co jsem potřeboval. Nyní mám mnohem více energie a lepší výsledky v tréninku."
+    id: 5,
+    name: "Martina, 34 let",
+    beforeImg: "/images/transformations/client2-before.png",
+    afterImg: "/images/transformations/client2-after.png",
+    quote: "Cvičení mě začalo bavit a výsledky se dostavily rychleji, než jsem čekala. Cítím se silnější a plná energie."
   }
 ];
 
