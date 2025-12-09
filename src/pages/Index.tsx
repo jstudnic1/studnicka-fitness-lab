@@ -9,6 +9,7 @@ import BlogSection from "@/components/BlogSection";
 import CalculatorsSection from "@/components/CalculatorsSection";
 import ContactSection from "@/components/ContactSection";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import PromoModal from "@/components/PromoModal";
 
 import { Link } from "react-router-dom";
 
@@ -166,6 +167,7 @@ const Index: React.FC = () => {
         </footer>
 
         <WhatsAppButton />
+        <PromoModal />
       </div>
     </>
   );
