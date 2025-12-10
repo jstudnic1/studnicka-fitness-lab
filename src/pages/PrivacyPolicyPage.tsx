@@ -9,13 +9,13 @@ import { ArrowLeft } from "lucide-react";
 /**
  * Přehled konstant – jednoduše upravíš na jednom místě
  */
-const siteName = "Marek Studnička – Trenér MB";
-const businessName = "Marek Studnička";           // živnostník nebo název s právní formou
-const businessIco = "123 45 678";                 // skutečné IČO
-const businessAddress = "Vinařice 53, 294 41 Dobrovice";
-const contactEmail = "info@marekstudnicka.cz";
-const contactPhone = "+420 777 186 849";
-const effectiveDate = "19. 05. 2025";
+const siteName = "Marek Studnička – Trenér MB";
+const businessName = "Marek Studnička";           // živnostník nebo název s právní formou
+const businessIco = "123 45 678";                 // skutečné IČO
+const businessAddress = "Vinařice 53, 294 41 Dobrovice";
+const contactEmail = "studnickam@outlook.cz";
+const contactPhone = "+420 777 186 849";
+const effectiveDate = "19. 05. 2025";
 
 const PrivacyPolicyPage: React.FC = () => {
   return (

@@ -1,5 +1,5 @@
 export const CONTACT_INFO = {
-  email: "info@marekstudnicka.cz",
+  email: "studnickam@outlook.cz",
   phone: "+420 777 186 849",
   phoneDisplay: "+420 777 186 849",
 };

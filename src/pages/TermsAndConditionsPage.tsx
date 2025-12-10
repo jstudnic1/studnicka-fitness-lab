@@ -6,13 +6,13 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 
-const siteName = "Marek Studnička – Trenér MB";
-const businessName = "Marek Studnička";
-const businessIco = "123 45 678";
-const businessAddress = "Vinařice 53, 294 41 Dobrovice";
-const contactEmail = "info@marekstudnicka.cz";
-const contactPhone = "+420 777 186 849";
-const effectiveDate = "19. 05. 2025";
+const siteName = "Marek Studnička – Trenér MB";
+const businessName = "Marek Studnička";
+const businessIco = "123 45 678";
+const businessAddress = "Vinařice 53, 294 41 Dobrovice";
+const contactEmail = "studnickam@outlook.cz";
+const contactPhone = "+420 777 186 849";
+const effectiveDate = "19. 05. 2025";
 
 const TermsAndConditionsPage: React.FC = () => {
   return (
